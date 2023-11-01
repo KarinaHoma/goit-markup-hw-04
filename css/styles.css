@@ -248,6 +248,20 @@ Fourth main section*/
   color: var(--Dark);
   margin-bottom: 8px;
 }
+.icon-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/*Index
+Fifth main section*/
+.section-fifth {
+  padding: 120px 0;
+  margin: auto;
+  text-align: center;
+}
+
 /*Portfolio
 Main section*/
 .main-section {
