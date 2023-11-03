@@ -292,9 +292,7 @@ Fifth main section*/
   width: 168px;
   height: 88px;
   padding: 16px 32px;
-  width: 100%;
-  height: 100%;
-  calc((100% - 120px) / 6);
+  width: calc((100% - 120px) / 6);
 }
 .customers-icons-link {
   display: flex;
@@ -358,8 +356,7 @@ Main section*/
   display: block;
 }
 .link-cards:hover,
-.link-cards:focus,
-.link-cards:active {
+.link-cards:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   cursor: pointer;
@@ -494,18 +491,18 @@ Second main section*/
   border-radius: 50%;
   cursor: pointer;
 }
-.social-media-link{
+.social-media-link {
   display: flex;
   align-items: center;
   justify-content: center;
-   width: 100%;
+  width: 100%;
   height: 100%;
-  background-color:#4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 50%;
   cursor: pointer;
 }
 .social-media-link:hover,
-.social-media-link:focus{
+.social-media-link:focus {
   background-color: #31d0aa;
 }
 .social-media-icon-list {
