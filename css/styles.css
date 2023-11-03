@@ -215,13 +215,12 @@ Third main section*/
   padding-bottom: 120px;
 }
 .header-third {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.025em;
-  color: var(--Dark);
-  margin: 0px;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--dark);
   margin-bottom: 72px;
 }
 .list-third {
@@ -286,27 +285,26 @@ Fourth main section*/
 Fifth main section*/
 .section-fifth {
   padding: 120px 0;
-  margin: auto;
 }
 .list-fifth {
-  width: 168px;
-  height: 88px;
-  padding: 16px 32px;
   width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-icons {
   display: flex;
-  border: 1px solid var(--Subtle-Text);
-  border-radius: 4px;
-  align-items: center;
   justify-content: center;
-  color: var(--Subtle-Text);
+  align-items: center;
+  color: var(--subtle-text);
+  border: 1px solid var(--subtle-text);
+  border-radius: 4px;
   width: 100%;
   height: 100%;
 }
 
-.customers-icons-link:hover,
-.customers-icons-link:focus {
-  border-color: var(--Pressed-state);
-  color: var(--Pressed-state);
+.customers-icons:hover,
+.customers-icons:focus {
+  border-color: var(--pressed-state);
+  color: var(--pressed-state);
 }
 .icons-fifts {
   fill: currentColor;
@@ -354,12 +352,17 @@ Main section*/
 .link-cards {
   display: block;
 }
-.link-cards:hover,
-.link-cards:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.link-cards:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
+.link-cards:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
 .menu {
   font-size: 16px;
   line-height: 1.5;
