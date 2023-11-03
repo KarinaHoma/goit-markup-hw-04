@@ -255,6 +255,11 @@ Fourth main section*/
 .team-container {
   padding: 32px 0px;
 }
+.social-media-container {
+  width: 40px;
+  height: 40px;
+  height: 40px;
+}
 .header-our-team {
   font-size: 36px;
   line-height: 1.2;
@@ -289,6 +294,7 @@ Fifth main section*/
   padding: 16px 32px;
   width: 100%;
   height: 100%;
+  calc((100% - 120px) / 6);
 }
 .customers-icons-link {
   display: flex;
@@ -352,7 +358,8 @@ Main section*/
   display: block;
 }
 .link-cards:hover,
-.link-cards:focus {
+.link-cards:focus,
+.link-cards:active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   cursor: pointer;
@@ -463,7 +470,6 @@ Second main section*/
   text-align: left;
   color: var(--Light);
   width: 264px;
-  margin-bottom: 16px;
   max-width: 264px;
 }
 .social-media-title {
@@ -472,10 +478,10 @@ Second main section*/
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-left: 120px;
   margin-bottom: 16px;
   width: 40px;
   height: 40px;
+  text-wrap: nowrap;
 }
 .social-media-link-fourth {
   display: flex;
@@ -488,13 +494,27 @@ Second main section*/
   border-radius: 50%;
   cursor: pointer;
 }
+.social-media-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 100%;
+  height: 100%;
+  background-color:#4d5ae5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-media-link:hover,
+.social-media-link:focus{
+  background-color: #31d0aa;
+}
 .social-media-icon-list {
   display: flex;
   gap: 16px;
 }
 .social-media-link-fourth:hover,
 .social-media-link-fourth:focus {
-  background-color: #404bb;
+  background-color: #404bbf;
 }
 .social-media-icon {
   fill: var(--Light);
